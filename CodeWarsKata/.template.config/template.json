@@ -1,0 +1,28 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "DaHermansson",
+    "classifications": [ "Console" ],
+    "identity": "CodeWars.Kata.VSCodeTemplate.CSharp",
+    "name": "CodeWars Kata",
+    "shortName": "kata",
+    "tags": {
+        "type": "project",
+        "language": "C#"
+    },
+    "preferNameDirectory": true,
+    "sourceName": "CodeWarsKata",
+    "primaryOutputs": [
+        {
+          "path": "CodeWarsKata.csproj"        
+        }
+    ],
+    "postActions": [
+        {
+          "description": "Restore NuGet packages required by this project.",
+          "manualInstructions": [
+            { "text": "Run 'dotnet restore'" }
+          ],
+          "actionId": "210D431B-A78B-4D2F-B762-4ED3E3EA9025",
+          "continueOnError": true
+        }]
+}
