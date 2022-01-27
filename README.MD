@@ -2,7 +2,7 @@
 
 ## Install
 ```
-dotnet new --install path\CodewarsTemplate\CodeWarsKatad
+dotnet new --install path\CodewarsTemplate\CodeWarsKata
 ```
 
 ## Example use
